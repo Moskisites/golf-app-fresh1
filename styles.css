@@ -1,6 +1,5 @@
 styles.css
 /* Reset and base styles */
-* /* Reset and base styles */
 * {
   margin: 0;
   padding: 0;
@@ -13,10 +12,9 @@ body, html {
   font-family: 'Playfair Display', serif;
 }
 
-/* Hero section styles */
 .hero {
   height: 100vh;
-  background-image: url('images/links365-hero.jpg'); /* Path to your image */
+  background-image: url('your-image-url.jpg'); /* Replace with your golf image URL or file path */
   background-size: cover;
   background-position: center;
   display: flex;
@@ -28,23 +26,10 @@ body, html {
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
 }
 
-.hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.3); /* Slight overlay for better text visibility */
-  z-index: 1;
-}
-
 .hero h1 {
   font-size: 3rem;
   text-align: center;
   font-weight: 600;
-  position: relative;
-  z-index: 2;
 }
 
 .hero .logo {
@@ -54,16 +39,13 @@ body, html {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   letter-spacing: 4px;
-  z-index: 2;
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2rem;
   }
 }
-
 /* Add your other existing styles below */
 body {
     font-family: 'Arial', sans-serif;
